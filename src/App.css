@@ -1,18 +1,24 @@
 .App {
-  height: 100vh;
+  height: 80vh;
   text-align: center;
   background-color: rgb(60, 70, 140);
   color: orange;
 }
 
-.App ol {
-
-  width: 10vw;
-  margin: 50px auto;
-  border: solid 2px orange;
+#before {
+  color: orangered;
 }
 
-.App ol li {
-  border: solid 1px gray;
-  color: white;
+#after {
+  color: greenyellow;
+}
+
+.header {
+  color: greenyellow;
+  font-size: 50px;
+}
+
+.technologies {
+  color: black;
+  font-size: 50px;
 }
