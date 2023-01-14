@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
-import Technologies from './Technologies';
+import Lalala from './Header';
+import Cococo from './Technologies';
 
 let App = () => {
 		return (
 				<div className="App">
-						<Header/>
-						<Technologies/>
+						<Lalala />
+						<Cococo />
 				</div>
 		);
 }
