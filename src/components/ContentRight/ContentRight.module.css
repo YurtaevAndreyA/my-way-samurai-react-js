@@ -9,7 +9,7 @@
 	flex-direction: column;
 }
 
-.contentRight img {
+.contentRight > img {
 	height: 20vh;
-	width: 57vw;
+	/*width: 57vw;*/
 }

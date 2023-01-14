@@ -1,5 +1,5 @@
-import ContentLeft from "./ContentLeft";
-import ContentRight from "./ContentRight";
+import ContentLeft from "../ContentLeft/ContentLeft.jsx";
+import ContentRight from "../ContentRight/ContentRight.jsx";
 import cls from './Content.module.css';
 
 let Content = () => {
