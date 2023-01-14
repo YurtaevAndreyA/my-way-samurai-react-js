@@ -1,5 +1,5 @@
 import cls from './ContentLeft.module.css';
-console.log(cls)
+
 let ContentLeft = () => {
 		return (
 				<div className={cls.contentLeft}>

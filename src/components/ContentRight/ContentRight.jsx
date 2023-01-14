@@ -2,7 +2,6 @@ import MyPosts from "../MyPosts/MyPosts.jsx";
 import AvaDescription from "../AvaDescription/AvaDescription.jsx";
 import cls from './ContentRight.module.css';
 
-console.log(cls)
 let ContentRight = () => {
 		return (
 				<div className={ cls.contentRight }>

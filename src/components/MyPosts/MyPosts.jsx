@@ -11,9 +11,9 @@ let MyPosts = () => {
 						</div>
 
 						<div className={ cls.posts }>
-								<Post/>
-								<Post/>
-								<Post/>
+								<Post message="One One One" likes="15"/>
+								<Post message="Two Two Two" likes="20"/>
+								<Post message="Three Three" likes="1"/>
 
 						</div>
 				</div>
