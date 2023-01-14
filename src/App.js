@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Technologies from './Technologies';
 
 let App = () => {
 		return (
@@ -8,22 +10,6 @@ let App = () => {
 						<Technologies/>
 				</div>
 		);
-}
-
-let Header = () => {
-		return (
-				<div className="header">
-						this header
-				</div>
-		)
-}
-
-let Technologies = () => {
-		return (
-				<div className="technologies">
-						this technologies
-				</div>
-		)
 }
 
 export default App;
