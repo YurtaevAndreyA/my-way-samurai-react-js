@@ -1,20 +1,21 @@
-
+import cls from './MyPosts.module.css';
+console.log(cls)
 
 let MyPosts = () => {
 		return (
-				<div className="myPosts">
+				<div className={ cls.myPosts }>
 						MyPosts
 						<div className="newPost">
 								New post
 						</div>
 
 						<div className="posts">
-								<div className="post">post</div>
-								<div className="post">post</div>
-								<div className="post">post</div>
-								<div className="post">post</div>
-								<div className="post">post</div>
-								<div className="post">post</div>
+								<div className={ cls.item }>post</div>
+								<div className={ cls.item }>post</div>
+								<div className={ cls.item }>post</div>
+								<div className={ cls.item }>post</div>
+								<div className={ cls.item }>post</div>
+								<div className={ cls.item }>post</div>
 						</div>
 				</div>
 		)

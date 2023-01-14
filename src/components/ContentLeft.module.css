@@ -1,0 +1,9 @@
+.contentLeft {
+	background-color: rgb(60, 70, 140);
+	/*border: solid gray 2px;*/
+	width: 12vw;
+}
+
+.item {
+	color: white;
+}

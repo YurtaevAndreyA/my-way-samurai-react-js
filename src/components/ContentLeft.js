@@ -1,14 +1,14 @@
-
-
+import cls from './ContentLeft.module.css';
+console.log(cls)
 let ContentLeft = () => {
 		return (
-				<div className="content-left">
+				<div className={cls.contentLeft}>
 						Content-left
-						<div className="item">Profile</div>
-						<div className="item">Message</div>
-						<div className="item">News</div>
-						<div className="item">Music</div>
-						<div className="item">Settings</div>
+						<div className={cls.item}>Profile</div>
+						<div className={cls.item}>Message</div>
+						<div className={cls.item}>News</div>
+						<div className={cls.item}>Music</div>
+						<div className={cls.item}>Settings</div>
 				</div>
 		)
 }

@@ -1,0 +1,22 @@
+.header {
+	background-color: rgb(60, 70, 140);
+	/*border: solid red 2px;*/
+	height: 10vh;
+
+	display: flex;
+}
+
+.header img {
+	width: 6vw;
+	height: 8vh;
+	/*height: ;*/
+	border: solid 1vh rgb(60, 70, 140);
+	/*border-radius: 40px;*/
+
+}
+
+.header-heading {
+	/*border: solid green 2px;*/
+	width: 60vw;
+	text-align: center;
+}

@@ -1,0 +1,7 @@
+.content {
+	/*border: solid green 2px;*/
+	height: 87vh;
+
+	display: flex;
+	justify-content: space-between;
+}

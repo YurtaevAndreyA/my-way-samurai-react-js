@@ -1,0 +1,9 @@
+.myPosts {
+	height: 56vh;
+	background-color: darkgreen;
+	color: black;
+	/*border: solid orangered 2px;*/
+}
+ .item {
+	 color: red;
+ }
