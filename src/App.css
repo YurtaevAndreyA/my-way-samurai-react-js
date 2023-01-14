@@ -1,24 +1,85 @@
+body {
+	/*background-color: black;*/
+	background-color: #333;
+
+
+}
+
 .App {
-  height: 100vh;
-  text-align: center;
-  background-color: rgb(60, 70, 140);
-  color: orange;
-}
+	margin: auto;
+	width: 70vw;
+	height: 99vh;
+	/*text-align: center;*/
 
-#before {
-  color: orangered;
-}
-
-#after {
-  color: greenyellow;
+	/*background-color: black;*/
+	background-color: #333;
+	font-weight: bold;
+	color: #f90;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*border: solid 2px white;*/
 }
 
 .header {
-  color: greenyellow;
-  font-size: 50px;
+	background-color: rgb(60, 70, 140);
+	/*border: solid red 2px;*/
+	height: 10vh;
+
+	display: flex;
 }
 
-.technologies {
-  color: black;
-  font-size: 50px;
+.header img {
+	width: 6vw;
+	height: 8vh;
+	/*height: ;*/
+	border: solid 1vh rgb(60, 70, 140);
+	/*border-radius: 40px;*/
+
+}
+
+.header-heading {
+	/*border: solid green 2px;*/
+	width: 60vw;
+	text-align: center;
+}
+
+.content {
+	/*border: solid green 2px;*/
+	height: 87vh;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-left {
+	background-color: rgb(60, 70, 140);
+	/*border: solid gray 2px;*/
+	width: 12vw;
+}
+
+.content-right {
+	background-color: #f90;
+	color: rgb(60, 70, 140);
+
+	/*border: solid gray 2px;*/
+	width: 57vw;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.content-right img {
+	height: 20vh;
+	width: 57vw;
+}
+
+.avaDescription {
+	height: 13vh;
+	border: solid yellow 3px;
+}
+
+.myPosts {
+	height: 56vh;
+	/*border: solid orangered 2px;*/
 }
