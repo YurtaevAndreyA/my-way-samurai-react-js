@@ -17,3 +17,7 @@ main {
 	justify-content: space-between;
 }
 
+.app-wrapper-content {
+	width: 57vw;
+	border: solid gray 2px;
+}

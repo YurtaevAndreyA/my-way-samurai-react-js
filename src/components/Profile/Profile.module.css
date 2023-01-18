@@ -4,8 +4,7 @@
 }
 
 .content {
-	width: 57vw;
-	border: solid gray 2px;
+	/*стили перенесли в App.css*/
 }
 
 .avaDes {
