@@ -1,0 +1,10 @@
+
+.item {
+	color: aquamarine;
+	border: solid 1px #444;
+}
+
+.item > img {
+	width: 30px;
+	height: 30px;
+}
