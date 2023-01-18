@@ -1,8 +1,52 @@
-.App {
-  height: 100vh;
-  text-align: center;
-  background-color: rgb(60, 70, 140);
-  color: orange;
+body {
+	background-color: #003;
 }
 
+.app-wrapper {
+	margin: auto;
+	width: 70vw;
+	height: 100vh;
 
+	/*text-align: center;*/
+	/*background-color: rgb(60, 70, 140);*/
+	/*background-color: #004;*/
+	color: orange;
+}
+
+.header {
+	/*background-color: rgb(60, 70, 140);*/
+	width: 70vw;
+	height: 10vh;
+	display: flex;
+	border: solid gray 2px;
+	/*background-color: ;*/
+}
+
+.header > img {
+	width: 11vw;
+
+}
+
+main {
+
+	margin: 2vh auto;
+	display: flex;
+	height: 85vh;
+	justify-content: space-between;
+
+}
+
+.content img {
+	height: 20vh;
+	width: 57vw;
+}
+
+.nav {
+	width: 11vw;
+	border: solid gray 2px;
+}
+
+.content {
+	width: 57vw;
+	border: solid gray 2px;
+}
