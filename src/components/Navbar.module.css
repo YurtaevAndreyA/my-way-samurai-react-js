@@ -1,0 +1,12 @@
+.nav {
+	width: 11vw;
+	border: solid gray 2px;
+}
+
+.item {
+	color: orange;
+}
+
+.item.active {
+	color: #0f0;
+}

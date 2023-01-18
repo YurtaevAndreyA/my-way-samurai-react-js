@@ -1,0 +1,10 @@
+.header {
+	width: 70vw;
+	height: 10vh;
+	display: flex;
+	border: solid gray 2px;
+}
+
+.header > img {
+	width: 6vw;
+}
