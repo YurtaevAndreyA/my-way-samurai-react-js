@@ -10,10 +10,10 @@ let MyPosts = () => {
 										<input type="button" value="Add post"/>
 								</div>
 								<div>
-										<Post/>
-										<Post/>
-										<Post/>
-										<Post/>
+										<Post post='post 1' like='30'/>
+										<Post post='post 2' like='40'/>
+										<Post post='post 3' like='1'/>
+										<Post post='post 4' like='10'/>
 								</div>
 						</div>
 		);
