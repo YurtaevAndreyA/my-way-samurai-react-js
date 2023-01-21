@@ -3,7 +3,7 @@ import classes from './Dialogs.module.css';
 let Dialogs = () => {
 		return (
 				<div className={classes.d}>
-						Dialogs
+						Dialogs +
 				</div>
 		)
 }
